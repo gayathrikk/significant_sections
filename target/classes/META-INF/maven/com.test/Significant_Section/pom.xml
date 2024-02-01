@@ -75,7 +75,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-            <test>com.test.Significant_Section.apollo2</test>
+            <test>com.test.Significant_Section.Export_Status</test>
           </configuration>
         </plugin>
       </plugins>
