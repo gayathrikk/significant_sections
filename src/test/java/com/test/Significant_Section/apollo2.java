@@ -22,11 +22,11 @@ public class apollo2 {
             try (Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD)) {
                 System.out.println("MySQL database connected");
 
-                exportStatus(connection, 1, "*****Export status-1 , process started , orange*****");
-                exportStatus(connection, 2, "*****Export status-2 , process on going , yellow*****");
-                exportStatus(connection, 3, "*****Export status-3 , Zoomify conversion , Blue*****");
-                exportStatus(connection, 4, "*****Export status-4 , process completed , Green*****");
-                exportStatus(connection, 5, "*****Export status-5 , unsignificant process ,Black*****");
+                exportStatus(connection, 1, "*********************Export status-1 , process started , orange********************");
+                exportStatus(connection, 2, "*********************Export status-2 , process on going , yellow*******************");
+                exportStatus(connection, 3, "*********************Export status-3 , Zoomify conversion , Blue*******************");
+                exportStatus(connection, 4, "*********************Export status-4 , process completed , Green*******************");
+                exportStatus(connection, 5, "*********************Export status-5 , unsignificant process ,Black****************");
                 
             }
         } catch (ClassNotFoundException | SQLException e) {
